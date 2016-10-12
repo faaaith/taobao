@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+	<title>淘宝</title>
+	<link href="css/style.css" rel="stylesheet">
+	<script>
+		var iWidth=document.documentElement.getBoundingClientRect().width;
+		iWidth=iWidth>540?540:iWidth;
+		iWidth=iWidth<300?300:iWidth;
+		document.getElementsByTagName("html")[0].style.fontSize=iWidth/3.2+"px";
+	</script>
+</head>
+<body>
+	<header class="header flex flex-c">
+		<h1 class="logo">
+			<a class="logo-link" href="#">淘宝</a>
+		</h1>
+		<form class="searchbar flex-1" action="#"  method="get">
+			<button class="searchbar-submit iconF" type="submit">&#xe602;</button>
+			<input class="searchbar-search" type="text" placeholder="搜索宝贝、店铺"/>
+		</form>
+	</header>
+	<section class="banner wrap" id="top">
+		<nav class="bannerB">
+			<a class="bannerBL" href="#">
+				<img class="bannerB-img" src="img/banner.jpg">
+			</a>
+		</nav>
+		<ul class="bannerC flex flex-j">
+			<li class="bannerCL bannerCL_active"></li>
+			<li class="bannerCL"></li>
+			<li class="bannerCL"></li>
+			<li class="bannerCL"></li>
+			<li class="bannerCL"></li>
+			<li class="bannerCL"></li>
+			<li class="bannerCL"></li>
+		</ul>
+	</section>
+	<section class="navbarWrap fz0 wrap">	
+		<nav class="navbar">
+			<a class="nav" href="#">
+				<i class="iconF nav-icon nav-icon_TM">&#xe601;</i>
+				<strong class="nav-title">天猫</strong>
+			</a>
+			<a class="nav" href="#">
+				<i class="iconF nav-icon nav-icon_JHS" >&#xe600;</i>
+				<strong class="nav-title">聚划算</strong>
+			</a>
+			<a class="nav" href="#">
+				<i class="iconF nav-icon nav-icon_TSH">&#xe604;</i>
+				<strong class="nav-title">淘生活</strong>
+			</a>
+			<a class="nav" href="#">
+				<i class="iconF nav-icon nav-icon_TDD">&#xe60b;</i>
+				<strong class="nav-title">淘点点</strong>
+			</a>
+			<a class="nav" href="#">
+				<i class="iconF nav-icon nav-icon_CZ">&#xe607;</i>
+				<strong class="nav-title">充值</strong>
+			</a>
+			<a class="nav" href="#">
+				<i class="iconF nav-icon nav-icon_QA">&#xe60a;</i>
+				<strong class="nav-title">去啊</strong>
+			</a>
+			<a class="nav" href="#">
+				<i class="iconF nav-icon nav-icon_LJB">&#xe605;</i>
+				<strong class="nav-title">领金币</strong>
+			</a>
+			<a class="nav" href="#">
+				<i class="iconF nav-icon nav-icon_LM">&#xe603;</i>
+				<strong class="nav-title">类目</strong>
+			</a>
+		</nav>
+	</section>
+	<section class="showbar wrap clear mt10 flex">
+		<div class="w40 show">
+			<h2 class="showbar-titleB showbar-titleTQG"><i class="iconF showbar-ico">&#xe60f;</i>淘抢购</h2>
+			<a class="showbox" href="#">
+				<span class="showbox-title">防紫外皮肤衣 多色选</span>
+				<img src="img/show/showL.jpg">
+			</a>			
+		</div>
+		<div class="w60 h100  bl">
+			<div class="h40 show bb flex">
+				<div class="w60">
+					<h2 class="showbar-titleB showbar-titleYHH"><i class="iconF showbar-ico pr3">&#xe60e;</i>有好货</h2>
+					<span class="showbox-title">新锐设计 小资最爱</span>
+				</div>	
+				<a class="w40" href="#">
+					<img class="showR_top" src="img/show/showR_top.jpg">
+				</a>		
+			</div>
+			<div class="h60 flex">
+				<div class="w50 show br">
+					<h2 class="showbar-titleL showbar-titleAGJ">爱逛街</h2>
+					<a class="showbox" href="#">
+						<span class="showbox-title">我爱裙角飞扬</span>
+						<img class="showbox-img" src="img/show/showR_bottomL.jpg" >
+					</a>	
+				</div>
+				<div class="w50 show">
+					<h2 class="showbar-titleL showbar-titleMRXP">每日新品</h2>
+						<a class="showbox" href="#">
+							<span class="showbox-title">女神款细跟凉鞋</span>
+							<img class="showbox-img" src="img/show/showR_bottomR.jpg">
+						</a>	
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="market wrap mt10">
+		<header class="topic-hd flex flex-j">
+			<h2 class="topic-tit topic-tit_market">特色市场</h2>
+			<a class="more" href="#">更多<i class="iconF iconF_market">&#xe609;</i></a>
+		</header>
+		<div class="mCont">
+			<div class="mCont-top bb flex">
+				<div class="mCont-topL br w50 h100 bgCon"></div>
+				<div class="mCont-topR w50 h100">
+					<div class="mCont-topR-top bgCon h50 bb"></div>
+					<div class="mCont-topR-bot bgCon h50"></div>
+				</div>
+			</div>
+			<div class="mCont-mid fz0">
+				<div class="mCont-midI">
+					<h3 class="mCont-midI-tit_b">特色中国</h3>
+					<h4 class="mCont-midI-tit_s">抢南国麦片</h4>
+					<img class="mCont-midI-img" src="img/market/tszg.jpg">
+				</div>
+				<div class="mCont-midI">
+					<h3 class="mCont-midI-tit_b">聚名品</h3>
+					<h4 class="mCont-midI-tit_s">520聚会装</h4>
+					<img class="mCont-midI-img" src="img/market/jpp.jpg">
+				</div>
+				<div class="mCont-midI">
+					<h3 class="mCont-midI-tit_b">全球购</h3>
+					<h4 class="mCont-midI-tit_s">高跟二次元</h4>
+					<img class="mCont-midI-img" src="img/market/qqg.jpg">
+				</div>
+				<div class="mCont-midI brn">
+					<h3 class="mCont-midI-tit_b">免费试用</h3>
+					<h4 class="mCont-midI-tit_s">联想新品</h4>
+					<img class="mCont-midI-img" src="img/market/mfsy.jpg">
+				</div>
+			</div>
+			<div class="mCont-bot fz0">
+				<a class="mCont-botI bsbb" href="#">
+					<i class="iconD mCont-iconTMGJ di-vm"></i>
+					<span class="di-vm">天猫国际</span>					
+				</a>
+				<a class="mCont-botI bsbb" href="#">
+					<i class="iconD mCont-iconLRG di-vm"></i>
+					<span class="di-vm">俪人购</span>					
+				</a>
+				<a class="mCont-botI bsbb" href="#">
+					<i class="iconD mCont-iconMXS di-vm"></i>
+					<span class="di-vm">喵鲜生</span>					
+				</a>
+				<a class="mCont-botI bsbb" href="#">
+					<i class="iconD mCont-iconPPJ di-vm"></i>
+					<span class="di-vm">品牌街</span>					
+				</a>
+			</div>	
+			<hr class="hr">
+			<div class="mCont-bot fz0">
+				<a class="mCont-botI bsbb" href="#">
+					<i class="iconD mCont-iconQC di-vm"></i>
+					<span class="di-vm">清仓</span>					
+				</a>
+				<a class="mCont-botI bsbb" href="#">
+					<i class="iconD mCont-iconZMTB di-vm"></i>
+					<span class="di-vm">周末淘宝</span>					
+				</a>
+				<a class="mCont-botI bsbb" href="#">
+					<i class="iconD mCont-iconTBZC di-vm"></i>
+					<span class="di-vm">淘宝众筹</span>					
+				</a>
+				<a class="mCont-botI bsbb" href="#">
+					<i class="iconD mCont-iconTBDY di-vm"></i>
+					<span class="di-vm">淘宝电影</span>					
+				</a>	
+			</div>
+			<div class="ad">
+				<img class="ad-img" src="img/market/ad.jpg" >
+			</div>
+		</div>
+	</section>
+	<section class="hot wrap mt10">
+		<header class="topic-hd flex flex-j">
+			<h2 class="topic-tit topic-tit_hot">热门市场</h2>
+			<a class="more" href="#">更多<i class="iconF iconF_hot">&#xe609;</i></a>
+		</header>
+		<div class="hot-top fz0 bb">
+			<div class="hot-top-in br">
+				<h2 class="hot-top-tit_b">女装</h3>
+				<h4 class="hot-top-tit_s">海量新品首发</h4>
+				<img class="hot-top-img" src="img/hot/nz.jpg">
+			</div>
+			<div class="hot-top-in brn">
+				<h2 class="hot-top-tit_b">鞋包</h3>
+				<h4 class="hot-top-tit_s">新款驾到！</h4>
+				<img class="hot-top-img" src="img/hot/xb.jpg">
+			</div>
+		</div>
+		<div class="hot-main fz0 bb">
+			<div class="hot-main-in">
+				<h3 class="hot-main-in-tit_b">母婴</h3>
+				<h4 class="hot-main-in-tit_s">挑六一礼</h4>
+				<img class="hot-main-in-img" src="img/hot/my.jpg">
+			</div>
+			<div class="hot-main-in">
+				<h3 class="hot-main-in-tit_b">运动</h3>
+				<h4 class="hot-main-in-tit_s">运动潮流控</h4>
+				<img class="hot-main-in-img" src="img/hot/yd.jpg">
+			</div>
+			<div class="hot-main-in">
+				<h3 class="hot-main-in-tit_b">美妆</h3>
+				<h4 class="hot-main-in-tit_s">夏日香气</h4>
+				<img class="hot-main-in-img" src="img/hot/mz.jpg">
+			</div>
+			<div class="hot-main-in">
+				<h3 class="hot-main-in-tit_b">数码</h3>
+				<h4 class="hot-main-in-tit_s">抢大牌现</h4>
+				<img class="hot-main-in-img" src="img/hot/sm.jpg">
+			</div>
+			<div class="hot-main-in">
+				<h3 class="hot-main-in-tit_b">男装</h3>
+				<h4 class="hot-main-in-tit_s">型男养成记</h4>
+				<img class="hot-main-in-img" src="img/hot/nz.jpg">
+			</div>
+			<div class="hot-main-in">
+				<h3 class="hot-main-in-tit_b">家居</h3>
+				<h4 class="hot-main-in-tit_s">驱蚊有妙招</h4>
+				<img class="hot-main-in-img" src="img/hot/jj.jpg">
+			</div>
+			<div class="hot-main-in">
+				<h3 class="hot-main-in-tit_b">美食</h3>
+				<h4 class="hot-main-in-tit_s">爱的味道</h4>
+				<img class="hot-main-in-img" src="img/hot/ms.jpg">
+			</div>
+			<div class="hot-main-in">
+				<h3 class="hot-main-in-tit_b">家电</h3>
+				<h4 class="hot-main-in-tit_s">大奖任性抽</h4>
+				<img class="hot-main-in-img" src="img/hot/jd.jpg">
+			</div>
+		</div>
+		<div class="ad">
+			<img src="img/hot/ad.jpg">
+		</div>
+	</section>
+	<section class="shop mt10 wrap">
+		<header class="topic-hd flex flex-j">
+			<h2 class="topic-tit topic-tit_shop">每日好店</h2>
+			<a class="more" href="#">更新50个好店<i class="iconF iconF_shop">&#xe609;</i></a>
+		</header>
+		<div class="shop-carousel">
+			<ul class="shop-carousel-show flex">
+				<li class="shop-carousel-showI">
+					<div class="shop-carousel-showI-box flex">
+						<div class="shop-carousel-showI-left">
+							<img class="shop-leftImg" src="img/shop/left1.jpg">
+						</div>
+						<div class="shop-carousel-showI-right">
+							<div class="shop-carousel-showI-rightT">
+								<img class="shop-rightTImg" src="img/shop/right_top1.jpg">
+							</div>
+							<div class="shop-carousel-showI-rightB">
+								<img class="shop-rightBImg" src="img/shop/right_bottom1.jpg">
+							</div>
+						</div>
+					</div>
+					<h4 class="shop-carousel-title">今日推荐—1天3波</h4>
+				</li>
+				<li class="shop-carousel-showI">
+					<div class="shop-carousel-showI-box flex">
+						<div class="shop-carousel-showI-left">
+							<img class="shop-leftImg" src="img/shop/left2.jpg">
+						</div>
+						<div class="shop-carousel-showI-right">
+							<div class="shop-carousel-showI-rightT">
+								<img class="shop-rightTImg" src="img/shop/right_top2.jpg">
+							</div>
+							<div class="shop-carousel-showI-rightB">
+								<img class="shop-rightBImg" src="img/shop/right_bottom2.jpg">
+							</div>
+						</div>
+					</div>
+					<h4 class="shop-carousel-title">女神の店—美人装</h4>
+				</li>
+			</ul>
+			<ul class="shop-carousel-con">
+				<li class="shop-carousel-conI shop-carousel-conI_active"></li>
+				<li class="shop-carousel-conI"></li>
+				<li class="shop-carousel-conI"></li>
+				<li class="shop-carousel-conI"></li>
+			</ul>
+		</div>
+	</section>
+	<section class="guess wrap">
+		<header class="guess-hd">
+			<div class="guess-hdT"></div>
+			<h2 class="guess-hdB">猜你喜欢</h2>
+		</header>
+		<ul class="guess-list clear">
+			<li class="guess-listI">
+				<div class="guess-listI-imgBox">
+					<img class="guess-listI-img" src="img/guess/img1.jpg">
+				</div>
+				<h4 class="guess-listI-title">创意洁净如花无火陶瓷香薰瓶欧...</h4>
+				<span class="guess-listI-money">57.0</span>
+			</li>
+			<li class="guess-listI">
+				<div class="guess-listI-imgBox">
+					<img class="guess-listI-img" src="img/guess/img2.jpg">
+				</div>
+				<h4 class="guess-listI-title">布艺风扇防尘罩 圆形全包电风...</h4>
+				<span class="guess-listI-money">17.8</span>
+			</li>
+			<li class="guess-listI">
+				<div class="guess-listI-imgBox">
+					<img class="guess-listI-img" src="img/guess/img3.jpg">
+				</div>
+				<h4 class="guess-listI-title">藤编家具 藤制客厅真藤沙发藤...</h4>
+				<span class="guess-listI-money">1520.0</span>
+			</li>
+			<li class="guess-listI">
+				<div class="guess-listI-imgBox">
+					<img class="guess-listI-img" src="img/guess/img4.jpg">
+				</div>
+				<h4 class="guess-listI-title">Loft49品库 泰国进口 柚木...</h4>
+				<span class="guess-listI-money">450.0</span>
+			</li>
+			<li class="guess-listI">
+				<div class="guess-listI-imgBox">
+					<img class="guess-listI-img" src="img/guess/img5.jpg">
+				</div>
+				<h4 class="guess-listI-title">湖南安化黑茶特级天尖茶叶 天...</h4>
+				<span class="guess-listI-money">384.12</span>
+			</li>
+			<li class="guess-listI">
+				<div class="guess-listI-imgBox">
+					<img class="guess-listI-img" src="img/guess/img6.jpg">
+				</div>
+				<h4 class="guess-listI-title">日单 O*euf 甜美优雅 碎花缎面...</h4>
+				<span class="guess-listI-money">55.0</span>
+			</li>
+		</ul>
+	</section>
+	<section class="bottom mt10 wrap">
+		<nav class="bottom-nav flex flex-j flex-c">
+			<a class="bottom-navI" href="#">登录</a>
+			<a class="bottom-navI" href="#">注册</a>
+			<a class="bottom-navI" href="#">电脑版</a>
+			<a class="bottom-navI" href="#">用户反馈</a>
+		</nav>
+		<p class="copyright"> 2015 浙 B2-20080224 <a class="copyright-service" href="#">服务中心</a></p>
+	</section>
+	<footer class="footer">	
+		<a class="toTop" href="#top">
+			<span class="iconF iconF_toTop db">&#xe608;</span>
+			<span class="db">顶部</span>
+		</a>
+		<div class="cell">
+			<a class="footer-close iconF" href="#">&#xe60c;</a>
+			<div class="footer-cSide">上客户端，领专属礼包！</div>
+			<a class="footer-get" href="#">立即领取</a>
+		</div>
+	</footer>
+	
+</body>
+</html>
